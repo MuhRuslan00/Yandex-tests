@@ -1,0 +1,49 @@
+div{
+    position:relative;
+    width: 180px;
+    height: 180px;
+    background: repeating-conic-gradient(#f7ebcc 0% 25%, #654430 25% 50%);
+    background-size: 180px 180px;
+    margin: 10px;
+    display: inline-block;
+}
+
+div::before {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    background-color: #5f5d5e;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    left: 22px;
+    top: 22px;
+    border: solid 3px #252324; outline: solid 6px #5f5d5e;
+}
+
+div::after{
+    display: inline-block;
+    content: '';
+    position: absolute;
+    background-color: #5f5d5e;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    left: 118px;
+    top: 118px;
+    border: solid 3px #252324; outline: solid 6px #5f5d5e;
+}
+      
+   
+
+
+
+
+    
+
+
+
+
+    
+
+
